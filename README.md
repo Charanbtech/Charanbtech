@@ -1,11 +1,11 @@
 <div align="center">
 
-<h3><code>charan@github My Contributions</code></h3>
+### My Contributions
 <img src="./contrib-heatmap.svg" width="860" />
 
 <br><br>
 
-<h3><code>charan@github About Me/code></h3>
+### About Me
 <table>
   <tr>
     <td valign="top"><img src="./charan-ascii.svg" width="370" /></td>

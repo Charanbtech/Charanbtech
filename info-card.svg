@@ -1,0 +1,33 @@
+<svg width="490" height="230" viewBox="0 0 490 230" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: #c9d1d9; }
+    .title { fill: #58a6ff; font-weight: bold; font-size: 16px; }
+    .key { fill: #7ee787; font-weight: bold; }
+    .line { opacity: 0; animation: slideIn 0.8s ease-out forwards; }
+    .delay-0 { animation-delay: 0.0s; }
+    .delay-1 { animation-delay: 0.2s; }
+    .delay-2 { animation-delay: 0.4s; }
+    .delay-3 { animation-delay: 0.6000000000000001s; }
+    .delay-4 { animation-delay: 0.8s; }
+    .delay-5 { animation-delay: 1.0s; }
+    
+    @keyframes slideIn {
+      0% { opacity: 0; transform: translateX(-15px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+  
+  <!-- Terminal Background -->
+  <rect width="490" height="230" fill="#0d1117" rx="8" ry="8" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Content Group -->
+  <g transform="translate(25, 40)">
+    <g class="line delay-0"><text class="text title">charan@github ~ $ neofetch</text></g>
+    <g class="line delay-1"><text class="text" y="15">----------------------------------</text></g>
+    <g class="line delay-2"><text class="text" y="45"><tspan class="key">Now      </tspan><tspan>: AI Research Intern @ CHAI (IITM)</tspan></text></g>
+    <g class="line delay-3"><text class="text" y="75"><tspan class="key">Edu      </tspan><tspan>: B.Tech CSBS @ KSRCT</tspan></text></g>
+    <g class="line delay-4"><text class="text" y="105"><tspan class="key">Stack    </tspan><tspan>: Python, PyTorch, React, OpenCV, Unity</tspan></text></g>
+    <g class="line delay-5"><text class="text" y="135"><tspan class="key">Highlight</tspan><tspan>: Google Student Ambassador (GSAP 2026)</tspan></text></g>
+    
+  </g>
+</svg>

@@ -27,7 +27,7 @@ SVG_TEMPLATE = """<svg width="490" height="230" viewBox="0 0 490 230" xmlns="htt
 def generate_svg():
     # Your custom resume data mapped to the Neofetch layout
     lines = [
-        ('<text class="text title">charan@github ~ $ neofetch</text>', 0),
+        ('<text class="text title">charan@github</text>', 0),
         ('<text class="text" y="15">----------------------------------</text>', 1),
         ('<text class="text" y="45"><tspan class="key">Now      </tspan><tspan>: AI Research Intern @ CHAI (IITM)</tspan></text>', 2),
         ('<text class="text" y="75"><tspan class="key">Edu      </tspan><tspan>: B.Tech CSBS @ KSRCT</tspan></text>', 3),

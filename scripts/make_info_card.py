@@ -29,9 +29,9 @@ def generate_svg():
     lines = [
         ('<text class="text title">charan@github</text>', 0),
         ('<text class="text" y="15">----------------------------------</text>', 1),
-        ('<text class="text" y="45"><tspan class="key">Now      </tspan><tspan>: AI Research Intern @ CHAI (IITM)</tspan></text>', 2),
+        ('<text class="text" y="45"><tspan class="key">Now      </tspan><tspan>: AI Research Intern @ CHAI (IITM) Pravartak</tspan></text>', 2),
         ('<text class="text" y="75"><tspan class="key">Edu      </tspan><tspan>: B.Tech CSBS @ KSRCT</tspan></text>', 3),
-        ('<text class="text" y="105"><tspan class="key">Stack    </tspan><tspan>: Python, PyTorch, React, OpenCV, Unity</tspan></text>', 4),
+        ('<text class="text" y="105"><tspan class="key">Stack    </tspan><tspan>: Python, ML, DL, Computer Vision, Unity, Blender</tspan></text>', 4),
         ('<text class="text" y="135"><tspan class="key">Highlight</tspan><tspan>: Google Student Ambassador (GSAP 2026)</tspan></text>', 5)
     ]
     
